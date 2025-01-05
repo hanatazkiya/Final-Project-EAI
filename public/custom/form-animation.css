@@ -1,0 +1,18 @@
+@keyframes form-invalid-danger {
+    0%{
+        transform: scale(100%);
+    }
+
+    50%{
+        transform: scale(130%);
+    }
+
+    100%{
+        transform: scale(100%);
+    }
+}
+
+.animate-form-invalid-danger {
+    animation: form-invalid-danger ease-in-out 1.5s infinite;
+    margin-left: .7rem;
+}
